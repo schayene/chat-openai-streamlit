@@ -30,6 +30,7 @@ pip install -r requirements.txt
 Copy the sample secrets file and fill in your secret values:
 
 ```bash
+mkdir .streamlit
 cp secrets-sample.toml .streamlit/secrets.toml
 # Then edit secrets.toml to add your secrets
 ```
